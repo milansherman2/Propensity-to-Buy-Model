@@ -35,8 +35,12 @@ Another question that was posed in this project was the importance of the featur
   <li>Examining purchase rate across premiums, i.e., do users tend to purchase at a higher rate when they don’t see a higher premium after being approved regardless of the magnitude of the premium?  This allowed to separate the issue of the size of the premium difference vs. size of the premium in understanding what influences users' decision to purchase.</li> 
 </ul>
 
-We found that this feature was consistently one of the Top 10 features in terms of feature importance in these models. <br>
-<b>Note</b>: another project in this portfolio, <i>Multiclass Classifification: Predicting Approved Risk Class</i>, demonstrates how I solved the problem of users seeing a higher price after being approved.
+We found that this feature was consistently one of the Top 10 features (out of 40) in terms of feature importance in these models. <br>
+<b>Note</b>: another project in this portfolio, <i>Multiclass Classification: Predicting Approved Risk Class</i>, demonstrates how I solved the problem of users seeing a higher price after being approved.
+</p>
+
+<b>Other Learnings</b>:
+This was my first experience using Target Encoding for encoding the categorical features.  We'd started with using the dummy variables function from pandas, but using Target Encoding reduce the number of features in our training set from 1253 to 39, making it much easier to tune the hyperparameters of our models.  Furthermore, even after addressing target leakage, the accuracy of all of our base models improved 1-7% after using Target Encoding.
 
 
 <h2>Languages Used</h2>
