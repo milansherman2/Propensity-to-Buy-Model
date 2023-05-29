@@ -36,6 +36,7 @@ Another question that was posed in this project was the importance of the featur
 </ul>
 
 We found that this feature was consistently one of the Top 10 features (out of 40) in terms of feature importance in these models. <br>
+
 <b>Note</b>: another project in this portfolio, <i>Multiclass Classification: Predicting Approved Risk Class</i>, demonstrates how I solved the problem of users seeing a higher price after being approved.
 </p>
 
@@ -56,6 +57,5 @@ This was my first experience using Target Encoding for encoding the categorical 
 - <b>Random Forest Classifier</b>
 - <b>TabNet (Neural Network for tabular data)</b>
 - <b>Catboost</b>
-- <b>Ensembe Model (KNN, Logistic Regerssion, Decision Tree, and Random Forest)</b>
+- <b>Ensembe Model (KNN, Logistic Regression, Decision Tree, and Random Forest)</b>
 
-<h2><a href="https://github.com/milansherman-usa/Multiclass-Classification-Model/blob/main/Approved%20Risk%20Class.pdf" target="_blank">Jupyter Notebook (pdf)<a/></h2>
