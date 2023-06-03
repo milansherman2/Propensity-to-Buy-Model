@@ -1,5 +1,22 @@
 # Propensity-to-Buy-Model
 <h2>Binary Classification</h2>
+
+<h2>Languages Used</h2>
+
+- <b>SQL</b> 
+- <b>Python</b>
+
+<h2>Models Used </h2>
+
+- <b>K Nearest Neighbors (KNN)</b>
+- <b>Logistic Regression</b>
+- <b>Decision Tree</b>
+- <b>Random Forest Classifier</b>
+- <b>TabNet (Neural Network for tabular data)</b>
+- <b>Catboost</b>
+- <b>Ensembe Model (KNN, Logistic Regression, Decision Tree, and Random Forest)</b>
+
+
 <p><b>Note</b>: this was a collaborative project with one other person in the class.  We both generated and reviewed models and code, discussed results, and crafted and presented results.</p>
 
 <p>
@@ -43,19 +60,4 @@ We found that this feature was consistently one of the Top 10 features (out of 4
 <b>Other Learnings</b>:
 This was my first experience using Target Encoding for encoding the categorical features.  We'd started with using the dummy variables function from pandas, but using Target Encoding reduce the number of features in our training set from 1253 to 39, making it much easier to tune the hyperparameters of our models.  Furthermore, even after addressing target leakage, the accuracy of all of our base models improved 1-7% after using Target Encoding.
 
-
-<h2>Languages Used</h2>
-
-- <b>SQL</b> 
-- <b>Python</b>
-
-<h2>Models Used </h2>
-
-- <b>K Nearest Neighbors (KNN)</b>
-- <b>Logistic Regression</b>
-- <b>Decision Tree</b>
-- <b>Random Forest Classifier</b>
-- <b>TabNet (Neural Network for tabular data)</b>
-- <b>Catboost</b>
-- <b>Ensembe Model (KNN, Logistic Regression, Decision Tree, and Random Forest)</b>
 
